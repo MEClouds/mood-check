@@ -1,7 +1,7 @@
 # **Burns Depression Checklist React App**
 
 This is a simple React app that calculates your depression level using the Burns Depression Checklist. The Burns Depression Checklist is a self-assessment tool developed by David D. Burns, a cognitive-behavioral therapist and author of "Feeling Good: The New Mood Therapy." The checklist consists of 20 questions that help you evaluate your symptoms and determine the severity of your depression.
-## Demo **[https://6433354fc1587d7e05d1dadd--ephemeral-marigold-4f5c24.netlify.app/]**
+Demo -> **[https://6433354fc1587d7e05d1dadd--ephemeral-marigold-4f5c24.netlify.app/]**
 
 ## **Getting Started**
 
