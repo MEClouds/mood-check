@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# **Burns Depression Checklist React App**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React app that calculates your depression level using the Burns Depression Checklist. The Burns Depression Checklist is a self-assessment tool developed by David D. Burns, a cognitive-behavioral therapist and author of "Feeling Good: The New Mood Therapy." The checklist consists of 20 questions that help you evaluate your symptoms and determine the severity of your depression.
 
-## Available Scripts
+## **Getting Started**
 
-In the project directory, you can run:
+To run the app on your local machine, follow these steps:
 
-### `npm start`
+1. Clone the repository to your local machine.
+2. Install the necessary dependencies by running **`npm install`** in the project directory.
+3. Start the development server by running **`npm start`**.
+4. Open **[http://localhost:3000](http://localhost:3000/)** to view the app in your browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **How to Use**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Once the app is running, simply answer the 20 questions by selecting the appropriate answer from the dropdown menu. Each question has a value of 0 to 3, with 0 indicating no symptoms and 3 indicating severe symptoms. After answering all the questions, click on the "Calculate" button to get your depression score.
 
-### `npm test`
+The app will add up the values of all your responses and display your depression score on the screen. A score of 0 to 5 indicates no depression, while a score of 6 to 10 indicates mild depression, 11 to 25 indicates moderate depression, and 26 or higher indicates severe depression.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Credits**
 
-### `npm run build`
+This app was created by Ayman , a student/developer interested in mental health and well-being. The Burns Depression Checklist and its scoring system were developed by David D. Burns and described in his book "Feeling Good: The New Mood Therapy." The app uses React for the user interface and Material-UI for the styling.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **License**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This app is licensed under the MIT License. You are free to use, modify, and distribute the app for personal or commercial purposes.
